@@ -32,4 +32,4 @@ class FullyConnectedLayer(object):
 
     def optimize(self,epsilon):
         self.W -= epsilon*self.dL_dW
-        self.b -= epsilon*self.dL_db
+        self.b -= epsilon*self.dL_db  
